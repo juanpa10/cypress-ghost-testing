@@ -12,15 +12,19 @@ describe('New Post Test', () => {
       cy.wait(2000); 
       cy.contains('a', 'New post').click(); 
       cy.url().should('include', '/editor/post');
+      cy.screenshot();
       cy.get('[data-test-editor-title-input]').type(Cypress.env('POST_TITLE'));
       const randomText = Math.random().toString(36).substring(2, 15);
       cy.get('p[data-koenig-dnd-droppable="true"]').click(); 
       cy.wait(500); 
       cy.get('p[data-koenig-dnd-droppable="true"]').invoke('html', randomText);
+      cy.screenshot();
       cy.contains('button', 'Publish').click();
+      cy.screenshot();
       cy.contains('button', 'Continue, final review').click();
       cy.wait(1000); 
       cy.contains('button', 'Publish post, right now').click();
+      cy.screenshot();
       cy.contains('span.green', 'Boom. It’s out there.').should('be.visible');
       
       
