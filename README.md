@@ -1,6 +1,7 @@
 # Configuración del Proyecto
 
 Este README proporciona los pasos para instalar y configurar Cypress para ejecutar pruebas de extremo a extremo en este proyecto.
+Integrantes: Juan Pablo Camacho -> jp.camacho10@uniandes.edu.co y  Felipe Rivera -> yf.rivera1851@uniandes.edu.co
 
 ## Instalar Cypress
 
