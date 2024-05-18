@@ -1,0 +1,28 @@
+[
+    {
+      "email": "example1@example.com",
+      "password": "Password123!",
+      "post_title": "Lorem ipsum dolor",
+      "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+      "TAG_POST": "ExampleTag",
+      "NEW_TAG_POST": "NewExampleTag",
+      "tag_slug": "example-tag",
+      "tag_description": "This is a description for the example tag.",
+      "member_name": "John Doe",
+      "member_email": "john.doe@example.com",
+      "member_note": "This is a note for John Doe."
+    },
+    {
+      "email": "example2@example.com",
+      "password": "Password456!",
+      "post_title": "Dolor sit amet",
+      "post_content": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+      "TAG_POST": "SampleTag",
+      "NEW_TAG_POST": "NewSampleTag",
+      "tag_slug": "sample-tag",
+      "tag_description": "This is a description for the sample tag.",
+      "member_name": "Jane Smith",
+      "member_email": "jane.smith@example.com",
+      "member_note": "This is a note for Jane Smith."
+    }
+  ]
